@@ -1,0 +1,5 @@
+- First, I want to understand the requirements for each step/phase
+- Secondly, get the pages created with a basic look and feel
+- Link the pages and add some basic css
+- Work on the JS script to ensure the desired functionality is achieved
+- Tidy up as time permits
