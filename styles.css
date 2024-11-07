@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+header{
+    border-bottom: 10px bold #02130b;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color:#345645;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    font-weight: bold;
+}
+
+#intro{
+    padding: 20px;
+    margin: 20px;
+}
+
+header,
+footer {
+    background-color: #345645;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    border-top: 10px bold #02130b;
+}
+
+label, textarea {
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 20px;
+   
+}
+
+label{
+    margin-bottom: 20px;
+}
+
+#label{
+    margin-left: 27px;
+}
+
+textarea{
+    margin-top: 50px;
+}
+
+table {
+    width: 100%;
+    border: 1px #3f8663 solid;
+}
+
+#save-btn {
+    background-color: #345645;
+    color: #f4f4f4;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+#edit-btn, #delete-btn{
+    color: #f4f4f4;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+#edit-btn{
+    background-color: #345645;
+}
+
+#delete-btn {
+    background-color: red;
+}
+
+#error{
+    color: red;
+    letter-spacing: 1px;
+}
+
+#displayTitle, #displayContent {
+    padding: 10px;
+    display: block;
+}
+
+/* Media Queries for Mobile Devices */
+@media only screen and (max-width: 600px) {
+
+    header,
+    footer {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        text-align: center;
+        margin: 5px 0;
+    }
+
+    section {
+        padding: 10px;
+        margin: 10px;
+    }
+}

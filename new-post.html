@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <title>Dynamic Blog Website</title>
+</head>
+
+<body>
+    <header>
+        My Dynamic Blog Website
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Create a Post</a></li>
+            <li><a href="post.html">View Posts</a></li>
+        </ul>
+    </nav>
+
+    <!-- Intro -->
+    <div id="intro">
+        <h2>Create Post</h2>
+        <br>
+        <p id="error"></p>
+        <form action="#">
+            <span id="label">
+                <label for="title">Title : </label>
+                <input type="text" id="title">
+            </span>
+            <br>
+
+            <span>
+                <label for="content">Content : </label>
+                <textarea name="content" id="content" rows="5" cols="70"></textarea>
+            </span>
+            <br>
+
+            <button id="save-btn">Save Post</button>
+        </form>
+
+        <p id="displayTitle">
+
+        </p>
+        <p id="displayContent">
+
+        </p>
+    </div>
+
+    <footer>
+        &copy; 2024 Akinola, Oluwaseun
+    </footer>
+
+</body>
+
+</html>
